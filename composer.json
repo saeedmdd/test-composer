@@ -1,0 +1,20 @@
+{
+    "name": "saeedmdd/test-composer",
+    "description": "this is test in turaj way",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Saeed\\TestComposer\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "saeed madadi"
+        }
+    ],
+    "require": {}
+}
